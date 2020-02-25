@@ -66,6 +66,14 @@ body {
             &:hover {
                 background-color: rgba(255, 255, 255, .9);
             }
+
+            &:focus,
+            &:active {
+                border: none;
+                outline: none;
+                -moz-outline-style: none;
+                outline-style: none;
+            }
         }
 
         .equal {
